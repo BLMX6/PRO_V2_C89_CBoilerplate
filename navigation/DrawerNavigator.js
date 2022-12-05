@@ -41,17 +41,17 @@ export default class DrawerNavigator extends Component {
         screenOptions={{ headerShown: false }}
       >
         <Drawer.Screen
-          name="MyHome"
+          name="Inicio"
           component={StackNavigator}
           options={{ unmountOnBlur: true }}
         />
         <Drawer.Screen
-          name="Profile"
+          name="Perfil"
           component={Profile}
           options={{ unmountOnBlur: true }}
         />
         <Drawer.Screen
-          name="Logout"
+          name="CerrarSesion"
           component={Logout}
           options={{ unmountOnBlur: true }}
         />
